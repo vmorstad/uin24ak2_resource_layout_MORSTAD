@@ -1,0 +1,73 @@
+/************ Custom Font ************/
+@font-face {
+	font-family: sans-serif;
+	src: url('font/Roboto/Roboto-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: sans-serif;
+	src: url('font/Roboto/Roboto-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: sans-serif;
+	src: url('font/Roboto/Roboto-Regular.ttf');
+	font-weight: 400;
+}
+
+/************ Default Css ************/
+body {
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: "Roboto", sans-serif;
+    -moz-osx-font-smoothing: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+:root {
+
+    --dark-blue: #2A324B;
+    --matte-blue: #58699d;
+    --light-grey: #E1E5EE;
+    --white: #fff;
+
+}
+/************ Default Css Ends Here ************/
+
+/************ Main Headings ************/
+/* Heading 1 */
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+}
+/* Heading 2 */
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+/* Heading 3 */
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+
+
