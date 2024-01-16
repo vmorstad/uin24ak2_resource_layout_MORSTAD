@@ -70,5 +70,10 @@ h3 {
     line-height: 34px;
 }
 
+#navBar {
+    background-color: aqua;
+    justify-content: center;
+    display: inline-block;
+}
 
 
