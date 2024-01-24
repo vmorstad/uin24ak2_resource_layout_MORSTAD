@@ -17,9 +17,7 @@
 
 /************ Default Css ************/
 body {
-    margin: 0;
-    overflow-x: hidden;
-    position: relative;
+
     background-color: var(--light-grey);
 
     font-family: "Roboto", sans-serif;
@@ -27,6 +25,11 @@ body {
     -moz-osx-font-smoothing: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
+
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    max-width: var(--maxsize);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,6 +50,9 @@ p, a, li, button, ul {
     --light-grey: #E1E5EE;
     --white: #fff;
 
+
+    --rootsize: 20px;
+    --maxsize: 1200px;
 }
 /************ Default Css Ends Here ************/
 
@@ -70,10 +76,35 @@ h3 {
     line-height: 34px;
 }
 
-#navBar {
-    background-color: aqua;
-    justify-content: center;
-    display: inline-block;
+nav {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    position: relative;
 }
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li{
+    background-color: var(--dark-blue);
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem;
+    padding-top: calc(1rem + 4px);
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+
 
 
